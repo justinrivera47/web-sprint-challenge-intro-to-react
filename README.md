@@ -69,16 +69,27 @@ After finishing your required elements, you can push your work further. These go
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the main branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes to the main branch.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React makes for a seemless experience for UI. Each state created on the application can change based on what the user presses. React will render and update components to pass new data in.
+
 1. Describe component state.
+
+State of a component is an object with properties. The information can change over the lifetime of that component.
+
 1. Describe props.
+
+props is an object holder that renders information from other objects or databases.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are basically anything that affects something outside of the scope of the current function that's being executed. we can use useEffect, preventdefault and other functions to handle some of those changes.
